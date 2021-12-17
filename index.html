@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="./icons/favicon.ico" rel="icon" type="image/x-icon" />
+    <title>Video Player | Josue</title>
+</head>
+<body>
+    <div class="ornament-top-wrapper">
+        <div class="circle"></div>
+    </div>
+    <section>
+        <div class="wrapper style-video-wrapper">
+            <div class="overlay-elements">
+                <h3 class="title-clip">The Amazing Spider-Man</h3>
+                <div class="action-buttons">
+                    <button id="backwardBtn" aria-label="Backward 10 Secs" title="Backward" hidden="true">
+                        
+                    </button>
+                    <button id="playBtn" aria-label="Play Button" title="Play">
+                        
+                    </button>
+                    <button id="pauseBtn" aria-label="Pause Button" title="Pause" hidden="true">
+                        
+                    </button>
+                    <button id="forwardBtn" aria-label="Forward 10 Secs" title="Forward" hidden="true">
+                        
+                    </button>
+                </div>
+                <input type="range" min="0" value="0" step="1" name="progressBar" id="progressBar">
+            </div>
+            <video id="video" poster="images/poster.png" width="400px" src="http://trailers.apple.com/movies/sony_pictures/theamazingspiderman/amazingspiderman-tlr2b-USA_h480p.mov"></video>
+        </div>
+    </section>
+    <div class="ornament-bottom-wrapper">
+        <div class="circle"></div>
+    </div>
+    <script src="./js/scripts.js"></script>
+</body>
+</html>

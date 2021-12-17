@@ -1,0 +1,30 @@
+button {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0;
+  transition: transform 240ms ease-out;
+}
+
+button:active {
+  transform: scale(0.5);
+}
+
+#backwardBtn {
+  background-image: url(../icons/icons8-reset1.svg);
+}
+
+#playBtn {
+  background-image: url(../icons/icons8-circled_play1.svg);
+}
+
+#pauseBtn {
+  background-image: url(../icons/icons8-pause_button1.svg);
+}
+
+#forwardBtn {
+  background-image: url(../icons/icons8-reset2.svg);
+}

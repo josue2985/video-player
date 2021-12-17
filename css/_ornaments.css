@@ -1,0 +1,42 @@
+:root {
+  --diameter: 400px;
+}
+
+.ornament-top-wrapper,
+.ornament-bottom-wrapper {
+  margin: auto;
+  max-width: none;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.ornament-bottom-wrapper {
+  bottom: 0;
+  right: 0;
+}
+
+.ornament-top-wrapper {
+  top: 0;
+  left: 0;
+}
+
+.ornament-top-wrapper .circle,
+.ornament-bottom-wrapper .circle {
+  position: relative;
+  background-image: url(../images/ellipse.svg);
+  height: var(--diameter);
+  width: var(--diameter);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ornament-top-wrapper .circle {
+  background-position: -167px -146px;
+}
+
+
+
+.ornament-bottom-wrapper .circle {
+  background-position: 136px 172px;
+}
