@@ -1,8 +1,8 @@
 /* Imports */
 
-@import url(./_buttons.css);
+@import url(./buttons.css);
 
-@import url(./_ornaments.css);
+@import url(./ornaments.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;1,700&display=swap');
 
